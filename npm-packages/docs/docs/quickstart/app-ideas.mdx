@@ -1,0 +1,218 @@
+---
+title: App Ideas
+description: "Seven full-fledged app ideas that play to Convex's strengths"
+sidebar_position: 1
+---
+
+Convex is best when your app needs shared live state, rich workflows, search,
+storage, and backend logic that stays easy to evolve. If you want to build a
+real product instead of another toy CRUD app, start with one of these.
+
+## 1. AI support copilot and knowledge base
+
+Build a shared support inbox with a customer timeline, assignments, internal
+notes, uploaded files, and AI drafted replies grounded in your docs.
+
+**Why it fits Convex**
+
+- Real-time inbox and assignment changes for the whole team
+- File storage for attachments and help center assets
+- HTTP actions for widget events, email ingestion, and webhooks
+- Vector search for suggested answers from your docs and past tickets
+
+**Make it feel full-fledged**
+
+- Team inbox with tags, priorities, and SLAs
+- Internal comments and approval flows
+- Public support widget plus internal dashboard
+- Knowledge base search and AI suggested replies
+- Conversation history across email, chat, and forms
+
+**Starter building blocks**
+
+- [Vector search](/search/vector-search.mdx)
+- [File storage](/file-storage.mdx)
+- [HTTP actions](/functions/http-actions.mdx)
+- [Authentication](/auth.mdx)
+- [Next.js app router](/client/nextjs/app-router/index.mdx)
+
+## 2. Real-time client portal for agencies and service teams
+
+Build a portal where clients and operators share tasks, approvals, files,
+timelines, status updates, and chat in one live workspace.
+
+**Why it fits Convex**
+
+- Shared live task state without manual cache invalidation
+- Presence and collaboration patterns for clients and internal teammates
+- Scheduling for reminders, nudges, and follow-ups
+- File storage for briefs, invoices, and deliverables
+
+**Make it feel full-fledged**
+
+- Client and internal roles
+- Task board with comments and status changes
+- Approval workflows and document review
+- Activity timeline and notifications
+- Shared files, notes, and follow-up reminders
+
+**Starter building blocks**
+
+- [Authentication](/auth.mdx)
+- [Real-time apps](/realtime.mdx)
+- [Scheduled functions](/scheduling/scheduled-functions.mdx)
+- [File storage](/file-storage.mdx)
+
+## 3. Applicant tracking system for small teams
+
+Build a hiring product with public job posts, application intake, resume
+uploads, pipeline stages, interview notes, and AI candidate matching.
+
+**Why it fits Convex**
+
+- Public forms and webhooks can land directly in Convex
+- Recruiters can collaborate live on the same candidates
+- File storage handles resumes and supporting documents
+- Search can power recruiter matching and talent rediscovery
+
+**Make it feel full-fledged**
+
+- Public job board and application forms
+- Candidate pipeline with custom stages
+- Interview scorecards and team notes
+- Resume uploads and candidate profiles
+- Automated reminders and next-step messaging
+
+**Starter building blocks**
+
+- [HTTP actions](/functions/http-actions.mdx)
+- [File storage](/file-storage.mdx)
+- [Vector search](/search/vector-search.mdx)
+- [`@convex-dev/ratelimiter`](/components.mdx)
+
+## 4. Private research workspace
+
+Build a team workspace for collecting links, uploads, notes, and findings, then
+searching and discussing everything with AI assistance.
+
+**Why it fits Convex**
+
+- Real-time collaboration keeps notes and discussions current
+- Vector search makes a private research corpus useful
+- File storage supports PDFs, screenshots, and source material
+- Agent and AI flows fit well on top of stored team knowledge
+
+**Make it feel full-fledged**
+
+- Shared collections and folders
+- Live notes and threaded discussion
+- Source ingestion and tagging
+- AI synthesis and question answering over workspace content
+- Workspace-level permissions and audit history
+
+**Starter building blocks**
+
+- [Agents](/agents.mdx)
+- [Vector search](/search/vector-search.mdx)
+- [File storage](/file-storage.mdx)
+- [Real-time apps](/realtime.mdx)
+
+## 5. Vertical CRM for service businesses
+
+Build a CRM that combines leads, pipeline stages, customer messaging, tasks,
+quotes, uploaded documents, and reminders for one specific industry.
+
+**Why it fits Convex**
+
+- Live records, workflows, and messaging all sit in the same backend
+- Scheduling handles reminders and follow-ups naturally
+- HTTP actions make outside form and webhook ingestion simple
+- Auth and roles help separate staff, managers, and customers
+
+**Make it feel full-fledged**
+
+- Leads, contacts, and deal stages
+- Notes, tasks, and activity history
+- Customer portal and messaging
+- Document collection and quote approval
+- Intake from forms, ads, or partner systems
+
+**Starter building blocks**
+
+- [Authentication](/auth.mdx)
+- [HTTP actions](/functions/http-actions.mdx)
+- [Scheduled functions](/scheduling/scheduled-functions.mdx)
+- [Components](/components.mdx)
+
+## 6. Cohort learning platform
+
+Build a learning product with lessons, assignments, live Q and A, office hours,
+group chat, progress tracking, and AI tutoring helpers.
+
+**Why it fits Convex**
+
+- Presence and live updates improve classes and cohort discussion
+- Scheduling supports unlocks, reminders, and office hours
+- File storage supports submissions and course assets
+- Search and AI can power study help and content discovery
+
+**Make it feel full-fledged**
+
+- Cohorts, lessons, and assignments
+- Student progress dashboards
+- Live discussion and office hours
+- File submissions and grading workflows
+- Reminder automation and AI tutoring
+
+**Starter building blocks**
+
+- [Real-time apps](/realtime.mdx)
+- [Scheduled functions](/scheduling/scheduled-functions.mdx)
+- [File storage](/file-storage.mdx)
+- [Agents](/agents.mdx)
+
+## 7. Paid community platform
+
+Build a niche membership product with live channels, direct messages, events,
+resource libraries, profiles, and gated access.
+
+**Why it fits Convex**
+
+- Community products benefit from real-time threads and presence
+- Search helps members find answers and past discussions
+- Scheduling supports events and reminder flows
+- Auth and rate limiting help with access control and moderation
+
+**Make it feel full-fledged**
+
+- Member roles and gated spaces
+- Live channels, threads, and reactions
+- Events, reminders, and announcements
+- Resource library with search
+- Moderation tools and rate limits
+
+**Starter building blocks**
+
+- [Authentication](/auth.mdx)
+- [Real-time apps](/realtime.mdx)
+- [Search](/search.mdx)
+- [`@convex-dev/ratelimiter`](/components.mdx)
+
+## Best starting stacks
+
+- **Best frontend base:** [Next.js app router](/client/nextjs/app-router/index.mdx)
+- **Fastest way to start from a prompt:** [Chef](/chef.mdx)
+- **Best docs sections to mix together:** [Authentication](/auth.mdx),
+  [File storage](/file-storage.mdx), [Search](/search.mdx),
+  [Scheduling](/scheduling.mdx), and [Agents](/agents.mdx)
+- **Best public demo collection:** [get-convex/convex-demos](https://github.com/get-convex/convex-demos)
+
+## Which one should you build first?
+
+- Build **AI support copilot** if you want the strongest commercial wedge
+- Build **client portal** if you want the broadest B2B use case
+- Build **ATS** if you want a focused SaaS product buyers already understand
+- Build **research workspace** if you want the most differentiated product feel
+
+If you are still deciding, start by prompting one of these ideas into
+[Chef](/chef.mdx), then pull the code into your own repo and keep iterating.
